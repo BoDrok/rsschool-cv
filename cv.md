@@ -26,3 +26,12 @@ function multiply(a, b){
 ## Experience
 
 I have no experience in the field of front-end development.
+
+## Education
+
+- **University**: Applied mathematics 
+
+## Languages
+
+- Russian - Native
+- English - Basic
