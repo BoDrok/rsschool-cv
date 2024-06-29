@@ -13,5 +13,16 @@ I am currently working as an engineer. My goal is to grow in the field of web de
 
 ## Skills
 
-- C++ , openCv , Qt
+- C++ , OpenCv , Qt
 - VBA
+
+## Code Example
+
+```javascript
+function multiply(a, b){
+  return a * b
+}
+```
+## Experience
+
+I have no experience in the field of front-end development.
