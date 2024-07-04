@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	background-color: #f7f4e9;
+	color: #1d1d2c;
+	font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #1d1d2c;
+}
+
+.wrapper {
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header */
+
+.header {
+	border-bottom: 3px solid #1d1d2c;
+	margin-bottom: 48px;
+}
+
+.nav {
+	padding: 10px 0 10px 0;
+	position: relative;
+}
+
+.nav_list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    flex-wrap: wrap;
+	gap: 10px;
+}
+
+.nav_link {
+	padding: 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+	transition: all .3s;
+}
+
+.nav_link:hover {
+	background-color: #1d1d2c;
+	color: #f7f4e9;
+	transition: all .5s;
+}
+
+.nav_cat-link:hover {
+	cursor : url("img/cat_skills.cur"), auto;
+}
