@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	background-color: #f7f4e9;
+	color: #1d1d2c;
+	font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #1d1d2c;
+}
+
+.wrapper {
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header */
+
+.header {
+	border-bottom: 3px solid #1d1d2c;
+	margin-bottom: 48px;
+}
+
+.nav {
+	padding: 10px 0 10px 0;
+	position: relative;
+}
+
+.nav_list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    flex-wrap: wrap;
+	gap: 10px;
+}
+
+.nav_link {
+	padding: 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20px;
+	transition: all .3s;
+}
+
+.nav_link:hover {
+	background-color: #1d1d2c;
+	color: #f7f4e9;
+	transition: all .5s;
+}
+
+.nav_cat-link:hover {
+	cursor : url("img/cat_skills.cur"), auto;
+}
+
+/* Main */
+
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 48px;
+}
+
+.about_avatar {
+	max-width: 160px;
+	max-height: 160px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.about_avatar {
+	cursor: url("img/cat_cursor_projects.cur"), auto;
+}
+
+.about_name {
+	font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+	line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.about_line {
+	width: 50%;
+	height: 2px;
+	background-color: #1d1d2c;
+	border-radius: 20px;
+	margin-bottom: 5px;
+}
+
+.about_text {
+	font-size: 24px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.about_desc p {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.about_desc p:last-child b {
+	font-size: 20px;
+}
+
+.about_desc-title {
+	display: inline-block;
+	border-bottom: 2px solid #1d1d2c;
+	margin-bottom: 20px;
+}
+
+
+/* contacts section */
+
+.contact {
+	margin-bottom: 48px;
+}
+
+.contact_title {
+	display: inline-block;
+	border-bottom: 2px solid #1d1d2c;
+	margin-bottom: 20px;
+}
+.contact_item {
+	margin-bottom: 8px;
+}
+
+.contact_item-container {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	gap: 4px;
+}
+
+.contact_item-container a {
+	text-decoration: underline;
+	transition: all .3s;
+}
+
+.contact_item-container a:hover {
+	font-weight: bold;
+	transition: all .5s;
+}
+
+.contact_icon {
+	max-width: 32px;
+	max-height: 32px;
+}
+
+/* skills */
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+    justify-content: space-around;
+	gap: 10px;
+	padding: 10px;
+	border: 2px solid #1d1d2c;
+	border-radius: 10px;
+	font-size: 18px;
+	margin-bottom: 48px;
+}
+
+.skills_title {
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+.skills_item {
+	margin-bottom: 4px;
+	list-style-image: url(img/cat_marker.png);
+}
+
+.languages_item {
+	margin-bottom: 4px;
+	list-style-image: url(img/cat_marker.png);
+}
+
+/* Code */
+
+.code {
+	margin-bottom: 48px;
+}
+
+.code_title {
+    display: inline-block;
+    border-bottom: 2px solid #1d1d2c;
+    margin-bottom: 20px;
+
+}
+
+.code_container {
+	padding: 10px;
+	background-color: #1d1d2c;
+	color: #3cbcc3;
+	border-radius: 10px;
+}
+
+/* Projects */
+
+.projects {
+	margin-bottom: 48px;
+}
+
+.projects_title {
+    display: inline-block;
+    border-bottom: 2px solid #1d1d2c;
+    margin-bottom: 20px;
+}
+
+.projects_desc {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.project_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.project_card {
+	max-width: 600px;
+	border: 1px solid #1d1d2c;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.project_link:hover {
+	cursor : url("img/cat_cursor_projects.cur"), auto;
+	font-weight: bold;
+}
+
+.project_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project_card-content {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Footer */
+
+.footer {
+	border-top: 3px solid #1d1d2c;
+}
+
+.footer_items {
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+	padding: 10px 0px 10px 0px;
+}
+
+.rsschool-link path {
+    fill: #1d1d2c;
+    transition: all .5s;
+}
+
+.rsschool-link:hover path {
+    fill:#eba63f;
+    transition: all .5s;
+}
+
+.footer_github-link {
+	font-size: 20px;
+	font-weight: bold;
+	transition: all .5s;
+}
+
+.footer_github-link:hover {
+	color: #eba63f;
+	transition: all .5s;
+}
+
+.footer_year {
+	font-size: 20px;
+	font-weight: bold;
+}
