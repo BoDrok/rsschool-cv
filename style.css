@@ -164,3 +164,140 @@ a {
 	max-width: 32px;
 	max-height: 32px;
 }
+
+/* skills */
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+    justify-content: space-around;
+	gap: 10px;
+	padding: 10px;
+	border: 2px solid #1d1d2c;
+	border-radius: 10px;
+	font-size: 18px;
+	margin-bottom: 48px;
+}
+
+.skills_title {
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+.skills_item {
+	margin-bottom: 4px;
+	list-style-image: url(img/cat_marker.png);
+}
+
+.languages_item {
+	margin-bottom: 4px;
+	list-style-image: url(img/cat_marker.png);
+}
+
+/* Code */
+
+.code {
+	margin-bottom: 48px;
+}
+
+.code_title {
+    display: inline-block;
+    border-bottom: 2px solid #1d1d2c;
+    margin-bottom: 20px;
+
+}
+
+.code_container {
+	padding: 10px;
+	background-color: #1d1d2c;
+	color: #3cbcc3;
+	border-radius: 10px;
+}
+
+/* Projects */
+
+.projects {
+	margin-bottom: 48px;
+}
+
+.projects_title {
+    display: inline-block;
+    border-bottom: 2px solid #1d1d2c;
+    margin-bottom: 20px;
+}
+
+.projects_desc {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.project_container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.project_card {
+	max-width: 600px;
+	border: 1px solid #1d1d2c;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.project_link:hover {
+	cursor : url("img/cat_cursor_projects.cur"), auto;
+	font-weight: bold;
+}
+
+.project_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project_card-content {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Footer */
+
+.footer {
+	border-top: 3px solid #1d1d2c;
+}
+
+.footer_items {
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+	padding: 10px 0px 10px 0px;
+}
+
+.rsschool-link path {
+    fill: #1d1d2c;
+    transition: all .5s;
+}
+
+.rsschool-link:hover path {
+    fill:#eba63f;
+    transition: all .5s;
+}
+
+.footer_github-link {
+	font-size: 20px;
+	font-weight: bold;
+	transition: all .5s;
+}
+
+.footer_github-link:hover {
+	color: #eba63f;
+	transition: all .5s;
+}
+
+.footer_year {
+	font-size: 20px;
+	font-weight: bold;
+}
